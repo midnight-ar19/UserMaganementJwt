@@ -12,7 +12,6 @@
 	  <PackageProjectUrl>https://github.com/midnight-ar19/UserMaganementJwt.git</PackageProjectUrl>
 	  <RepositoryUrl>https://github.com/midnight-ar19/UserMaganementJwt.git</RepositoryUrl>
 	  <RepositoryType>git</RepositoryType>
-	  <PackageReadmeFile>README.md</PackageReadmeFile>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -22,9 +21,5 @@
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.11.0" />
   </ItemGroup>
-
-	<ItemGroup>
-		<None Include="README.md" Pack="true" PackagePath="\" />
-	</ItemGroup>
 
 </Project>

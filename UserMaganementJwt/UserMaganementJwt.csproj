@@ -9,8 +9,8 @@
 	  <PackageTags>user-management;jwt;authentication</PackageTags>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	  <PackageProjectUrl>https://github.com/yourusername/UserManagementJwt</PackageProjectUrl>
-	  <RepositoryUrl>https://github.com/yourusername/UserManagementJwt.git</RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/midnight-ar19/UserMaganementJwt.git</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/midnight-ar19/UserMaganementJwt.git</RepositoryUrl>
 	  <RepositoryType>git</RepositoryType>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
     <TargetFramework>net8.0</TargetFramework>
@@ -22,5 +22,9 @@
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.11.0" />
   </ItemGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
 
 </Project>
